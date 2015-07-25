@@ -1,0 +1,14 @@
+1.strings , working with strings in scala
+2.numbers, working with numeric types 
+3.control structures
+4.classes and properties
+5.methods
+6.object covers
+7.packaging and import
+8.traits
+9.functional programming
+10.collections
+11.list,array,map,set, and much more , continuation of chapter 10
+
+The Way I'am going to learn Scala is by Scala WorkSheet which is powerful tool for learning
+Each bigger or smaller program will be commited in independent scala worksheet file.
