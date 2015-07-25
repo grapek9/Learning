@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DANIEL-G6</Machine>
+    <WindowsUser>Daniel</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>55b0b996-735e-4559-85e6-ad540c6a87d4</PackageIdentityName>
+    <RegisteredManifestChecksum>051E35B302EF9B6A0F04725CFC3AA285A9C868933F4FBB1D83916477EB3D0916</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>55b0b996-735e-4559-85e6-ad540c6a87d4_1.0.0.0_neutral__4jdacjwc0e74a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>55b0b996-735e-4559-85e6-ad540c6a87d4_4jdacjwc0e74a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>55b0b996-735e-4559-85e6-ad540c6a87d4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Daniel</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-25T19:39:35.457</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\bin\Debug\toDoList.exe">
+      <PackagePath>toDoList.exe</PackagePath>
+      <Modified>2015-06-25T19:39:34.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2015-06-25T18:25:14.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-06-25T18:22:49.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\bin\Debug\AddPage.xbf">
+      <PackagePath>AddPage.xbf</PackagePath>
+      <Modified>2015-06-25T19:39:33.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-06-25T18:51:12.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\toDoList\toDoList\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-25T19:39:35.121</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

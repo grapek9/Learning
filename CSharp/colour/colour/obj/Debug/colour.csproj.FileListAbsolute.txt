@@ -1,0 +1,9 @@
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\bin\Debug\colour.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\bin\Debug\colour.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\bin\Debug\colour.pdb
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\obj\Debug\colour.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\obj\Debug\colour.Form1.resources
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\obj\Debug\colour.Properties.Resources.resources
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\obj\Debug\colour.csproj.GenerateResource.Cache
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\obj\Debug\colour.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\colour\colour\obj\Debug\colour.pdb

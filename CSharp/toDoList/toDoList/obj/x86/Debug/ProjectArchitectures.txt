@@ -1,0 +1,1 @@
+C:\Users\domin_000\Documents\Visual Studio 2015\Projects\toDoList\toDoList\toDoList.csproj;x86

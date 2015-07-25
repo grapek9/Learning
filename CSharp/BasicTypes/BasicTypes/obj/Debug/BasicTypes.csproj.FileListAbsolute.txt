@@ -1,0 +1,9 @@
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\bin\Debug\BasicTypes.exe.config
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\bin\Debug\BasicTypes.exe
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\bin\Debug\BasicTypes.pdb
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\obj\Debug\BasicTypes.csprojResolveAssemblyReference.cache
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\obj\Debug\BasicTypes.exe
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\obj\Debug\BasicTypes.pdb
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\bin\Debug\BasicTypes.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\obj\Debug\BasicTypes.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\BasicTypes\BasicTypes\obj\Debug\BasicTypes.pdb

@@ -1,0 +1,6 @@
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\DecToBinAndBinToDeC\DecToBinAndBinToDeC\bin\Debug\DecToBinAndBinToDeC.exe.config
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\DecToBinAndBinToDeC\DecToBinAndBinToDeC\bin\Debug\DecToBinAndBinToDeC.exe
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\DecToBinAndBinToDeC\DecToBinAndBinToDeC\bin\Debug\DecToBinAndBinToDeC.pdb
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\DecToBinAndBinToDeC\DecToBinAndBinToDeC\obj\Debug\DecToBinAndBinToDeC.csprojResolveAssemblyReference.cache
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\DecToBinAndBinToDeC\DecToBinAndBinToDeC\obj\Debug\DecToBinAndBinToDeC.exe
+C:\Users\Grapek\Dysk Google\C Sharp\ConsoleApplication1\DecToBinAndBinToDeC\DecToBinAndBinToDeC\obj\Debug\DecToBinAndBinToDeC.pdb

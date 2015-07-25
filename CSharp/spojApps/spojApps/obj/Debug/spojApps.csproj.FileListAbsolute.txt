@@ -1,0 +1,9 @@
+C:\Users\Daniel\Desktop\Dysk Google\spojApps\cs\spojApps\spojApps\bin\Debug\spojApps.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\spojApps\cs\spojApps\spojApps\bin\Debug\spojApps.exe
+C:\Users\Daniel\Desktop\Dysk Google\spojApps\cs\spojApps\spojApps\bin\Debug\spojApps.pdb
+C:\Users\Daniel\Desktop\Dysk Google\spojApps\cs\spojApps\spojApps\obj\Debug\spojApps.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Dysk Google\spojApps\cs\spojApps\spojApps\obj\Debug\spojApps.exe
+C:\Users\Daniel\Desktop\Dysk Google\spojApps\cs\spojApps\spojApps\obj\Debug\spojApps.pdb
+C:\Users\Daniel\Desktop\Dysk Google\Learning\CSharp\spojApps\spojApps\bin\Debug\spojApps.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\Learning\CSharp\spojApps\spojApps\obj\Debug\spojApps.exe
+C:\Users\Daniel\Desktop\Dysk Google\Learning\CSharp\spojApps\spojApps\obj\Debug\spojApps.pdb

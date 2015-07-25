@@ -1,0 +1,6 @@
+C:\Users\Grapek\Dysk Google\C Sharp\Hello World\Hello World\bin\Debug\Hello World.exe.config
+C:\Users\Grapek\Dysk Google\C Sharp\Hello World\Hello World\bin\Debug\Hello World.exe
+C:\Users\Grapek\Dysk Google\C Sharp\Hello World\Hello World\bin\Debug\Hello World.pdb
+C:\Users\Grapek\Dysk Google\C Sharp\Hello World\Hello World\obj\Debug\Hello World.csprojResolveAssemblyReference.cache
+C:\Users\Grapek\Dysk Google\C Sharp\Hello World\Hello World\obj\Debug\Hello World.exe
+C:\Users\Grapek\Dysk Google\C Sharp\Hello World\Hello World\obj\Debug\Hello World.pdb

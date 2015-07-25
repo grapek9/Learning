@@ -1,0 +1,6 @@
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\processExplorer\processExplorer\bin\Debug\processExplorer.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\processExplorer\processExplorer\bin\Debug\processExplorer.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\processExplorer\processExplorer\bin\Debug\processExplorer.pdb
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\processExplorer\processExplorer\obj\Debug\processExplorer.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\processExplorer\processExplorer\obj\Debug\processExplorer.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\processExplorer\processExplorer\obj\Debug\processExplorer.pdb

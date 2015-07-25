@@ -1,0 +1,9 @@
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\bin\Debug\ProcesManager.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\bin\Debug\ProcesManager.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\bin\Debug\ProcesManager.pdb
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\obj\Debug\ProcesManager.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\obj\Debug\ProcesManager.Form1.resources
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\obj\Debug\ProcesManager.Properties.Resources.resources
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\obj\Debug\ProcesManager.csproj.GenerateResource.Cache
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\obj\Debug\ProcesManager.exe
+C:\Users\Daniel\Desktop\Dysk Google\C Sharp\ConsoleApplication1\ProcesManager\ProcesManager\obj\Debug\ProcesManager.pdb
