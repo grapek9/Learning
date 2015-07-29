@@ -45,7 +45,7 @@ namespace ProjectEuler
                     counter++;
                 }
             }
-            return (counter>2)? false :true;
+            return (counter>2)? true :false;
         }
     }
 }
