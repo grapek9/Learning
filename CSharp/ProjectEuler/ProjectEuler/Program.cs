@@ -18,8 +18,10 @@ namespace ProjectEuler
             // run_Problem3.run();
             // Problem5 run_Problem5 = new Problem5();
             // run_Problem5.run();
-            Problem6 run_Problem6 = new Problem6();
-            run_Problem6.run();
+            // Problem6 run_Problem6 = new Problem6();
+            // run_Problem6.run();
+            Problem4 run_Problem4 = new Problem4();
+            run_Problem4.run();
             Console.ReadKey();
         }
     }

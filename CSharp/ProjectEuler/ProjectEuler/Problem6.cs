@@ -12,7 +12,7 @@ namespace ProjectEuler
         {
             Console.WriteLine("Sum of squares: "+sumOfSquares());
             Console.WriteLine("Square of sum: "+squareOfSum());
-            Console.WriteLine("Difference: "+(squareOfSum()-sumOfSquares()) );
+            Console.WriteLine("Difference: "+(squareOfSum()-sumOfSquares()));
         }
         public int sumOfSquares()
         {
