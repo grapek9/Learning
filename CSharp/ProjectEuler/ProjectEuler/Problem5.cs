@@ -15,25 +15,15 @@ namespace ProjectEuler
         }
         public int smallest_positive()
         {
-            int number = 232792500;
-            
-            while (isPositive(number) == false)
+            int range = 20;
+            int smallest = 1;
+            for(int i=1;i< range;i++)
             {
-                number++;
-                Console.WriteLine(number);
+                Console.WriteLine("stuff "+smallest+"*"+i);
+                smallest *= i;
             }
-            return number;
+            return smallest;
         }
-        public bool isPositive(int number)
-        {
-            for(int i = 1; i<=20; i++)
-            {
-                if (number % i != 0)
-                {
-                    return false;
-                }
-            }
-            return true ;
-        }
+        
     }
 }
