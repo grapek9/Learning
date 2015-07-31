@@ -37,15 +37,12 @@ namespace ProjectEuler
         }
         public bool isPrime(int number)
         {
-            int counter = 1;
-            for(int i = 2; i<= number; i++)
+            int counter = 0;
+            for (int i = 1; i <= number; i++)
             {
-                if (number % i != 0)
-                {
-                    counter++;
-                }
+                if (number % i == 0) { counter++; }
             }
-            return (counter>2)? true :false;
+            return (counter > 2) ? false : true;
         }
     }
 }
