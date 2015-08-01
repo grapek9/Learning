@@ -10,8 +10,8 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            // Problem1 run_Problem1 = new Problem1();
-            // run_Problem1.run();
+             Problem1 run_Problem1 = new Problem1();
+             run_Problem1.run();
             // Problem2 run_Problem2 = new Problem2();
             // run_Problem2.run();
             // Problem3 run_Problem3 = new Problem3();
@@ -24,8 +24,8 @@ namespace ProjectEuler
             // run_Problem4.run();
             // Problem7 run_Problem7 = new Problem7();
             // run_Problem7.run();
-            Problem10 run_Problem10 = new Problem10();
-            run_Problem10.run();
+            // Problem10 run_Problem10 = new Problem10();
+            // run_Problem10.run();
             Console.ReadKey();
         }
     }

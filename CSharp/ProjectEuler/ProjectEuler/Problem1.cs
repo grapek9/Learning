@@ -10,6 +10,9 @@ namespace ProjectEuler
     {
         public void run()
         {
+            Console.WriteLine("The sum equals : " + Enumerable.Range(1, 999).Sum(x => (x % 3 == 0) ? x : (x % 5 == 0) ? x : 0));
+
+           /* Old code, working like that one above  
             int sum = 0;
             int[] array = Enumerable.Range(1, 999).ToArray();
             foreach (int iterator in array)
@@ -19,7 +22,7 @@ namespace ProjectEuler
                     sum += iterator;
                 }
             }
-            Console.WriteLine("Done and the sum equals : "+sum);
+            Console.WriteLine("Done and the sum equals : "+sum); */
         }
     }
 }
