@@ -10,6 +10,25 @@ namespace ProjectEuler
     {
         public void run()
         {
+            Console.WriteLine("Sum of even elements: " + generateSequence().Where(x=> x%2==0).Sum());
+        }
+        public IEnumerable<int> generateSequence()
+        {
+            int firstArg = 1, secondArg = 1, temp = 0; 
+            do{
+                temp = secondArg;
+                secondArg = firstArg + secondArg;
+                firstArg = temp;              
+                    yield return secondArg;              
+            }while(secondArg<4000000);          
+        }
+        
+        
+    }
+    /*
+    Old version
+    public void run()
+        {
             IEnumerable<int> list = generate_list();
             display(list);
         }
@@ -38,5 +57,5 @@ namespace ProjectEuler
             }
             Console.WriteLine("Sum of elements : "+sum);
         }
-    }
+    }*/
 }

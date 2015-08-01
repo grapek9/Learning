@@ -10,7 +10,7 @@ namespace ProjectEuler
     {
         public void run()
         {
-            Console.WriteLine("The sum equals : " + Enumerable.Range(1, 999).Sum(x => (x % 3 == 0) ? x : (x % 5 == 0) ? x : 0));
+            Console.WriteLine("The sum equals : " + Enumerable.Range(1, 999).Where(x=> x%5==0 || x%3==0).Sum());
 
            /* Old code, working like that one above  
             int sum = 0;
