@@ -10,11 +10,10 @@ namespace ProjectEuler
     {
         public void run()
         {
-            Int64 number = 600851475143;
-            IEnumerable<int> list = generateListOfPrimeFactors(number);
-            Console.Write("The highest prime factor is :"+list.Max());
+            long number = 600851475143;
+            Console.Write("The highest prime factor is :"+ generateListOfPrimeFactors(number).Max());
         }
-        public IEnumerable<int> generateListOfPrimeFactors(Int64 number)
+        public IEnumerable<int> generateListOfPrimeFactors(long number)
         {
             int prime_factor = 2;
             do
