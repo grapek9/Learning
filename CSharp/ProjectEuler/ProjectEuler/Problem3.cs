@@ -37,7 +37,7 @@ namespace ProjectEuler
         public bool isPrime(int number)
         {
             int counter = 0;
-            for (int i = 1; i <= number; i++)
+            for (int i = 1; i <= Math.Sqrt(number)+1; i++)
             {
                 if (number % i == 0) { counter++; }
             }

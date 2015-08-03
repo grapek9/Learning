@@ -10,8 +10,16 @@ namespace ProjectEuler
     {
         public void run()
         {
+            int sumOfSquares = Enumerable.Range(1, 100).Sum(x => x * x);
+            int squareOfSum = (int)Math.Pow(Enumerable.Range(1, 100).Sum(), 2);
+            Console.WriteLine("Sum of squares "+sumOfSquares+ "\nSquare of sum " + squareOfSum+"\nDifference"+(squareOfSum-sumOfSquares));                 
+        }
+                
+        /*
+        public void run()
+        {
             Console.WriteLine("Sum of squares: "+sumOfSquares());
-            Console.WriteLine("Square of sum: "+squareOfSum());
+            Console.WriteLine("Square of sum: "+squareOfSum());          
             Console.WriteLine("Difference: "+(squareOfSum()-sumOfSquares()));
         }
         public int sumOfSquares()
@@ -35,6 +43,6 @@ namespace ProjectEuler
                 sum += i;
             }
             return pow(sum);
-        }
+        }*/
     }
 }
