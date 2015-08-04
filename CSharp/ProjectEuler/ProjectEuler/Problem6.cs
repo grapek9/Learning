@@ -16,6 +16,7 @@ namespace ProjectEuler
         }
                 
         /*
+        //Old Version
         public void run()
         {
             Console.WriteLine("Sum of squares: "+sumOfSquares());
