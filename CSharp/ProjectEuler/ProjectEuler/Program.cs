@@ -24,12 +24,12 @@ namespace ProjectEuler
             // run_Problem4.run();
             // Problem7 run_Problem7 = new Problem7();
             // run_Problem7.run();
-            // Problem8 run_Problem8 = new Problem8();
-            // run_Problem8.run();
+             Problem8 run_Problem8 = new Problem8();
+             run_Problem8.run();
             // Problem10 run_Problem10 = new Problem10();
             // run_Problem10.run();
-            Problem12 run_Problem12 = new Problem12();
-            run_Problem12.run();
+            // Problem12 run_Problem12 = new Problem12();
+            // run_Problem12.run();
             // Problem14 run_Problem14 = new Problem14();
             // run_Problem14.run();
             Console.ReadKey();
