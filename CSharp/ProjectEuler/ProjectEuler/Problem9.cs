@@ -27,7 +27,7 @@ namespace ProjectEuler
                 if(a<b && b < c)
                 {
                     Console.WriteLine(values[0]+"+"+values[1]+"+"+values[2]+"=1000");
-                    Console.WriteLine("Product: "+a*b*c);
+                    Console.WriteLine("Product:  "+a*b*c);
                 }
                 
             }
