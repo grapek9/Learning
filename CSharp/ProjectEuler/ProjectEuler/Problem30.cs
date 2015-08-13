@@ -8,7 +8,24 @@ namespace ProjectEuler
 {
     class Problem30
     {
-        public void run()
+        public void run() {
+            Console.WriteLine("Sum of elements"+Enumerable.Range(2,550000).Where(sumOfElements).Sum());
+        }
+        public bool sumOfElements(int number)
+        {
+            string numberAsText = number.ToString();
+            int sum = 0;
+            for (int i = 0; i < numberAsText.Length; i++)
+            {
+                sum += (int)Math.Pow(int.Parse(numberAsText[i].ToString()), 5);
+            }
+            if (sum == number) return true; else return false;
+        }
+    }
+}
+
+/*
+ public void run()
         {
             IEnumerable<int> sequenceOfvalues = generateSequence();
             foreach (int element in sequenceOfvalues)
@@ -38,6 +55,4 @@ namespace ProjectEuler
                 sum += (int)Math.Pow(int.Parse(numberAsText[i].ToString()),5);
             }
             if (sum == number) return true; else return false;
-        }
-    }
-}
+        }*/
