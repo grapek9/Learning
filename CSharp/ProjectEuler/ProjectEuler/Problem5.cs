@@ -14,15 +14,23 @@ namespace ProjectEuler
             Console.WriteLine("The smalles positive number divided by all numbers\n from 1 to 20 is : " +smallest_positive_number);
         }
         public int smallest_positive()
-        {
-            int range = 20;
+        {          
             int smallest = 1;
-            for(int i=1;i< range;i++)
-            {
-                Console.WriteLine("stuff "+smallest+"*"+i);
-                smallest *= i;
-            }
+            do {
+                smallest++;
+            } while (isDivisible(smallest) != true);
             return smallest;
+        }
+        public bool isDivisible(int number)
+        {
+            for(int i = 1; i <= 20; i++)
+            {
+                if (number % i != 0)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
         
     }
