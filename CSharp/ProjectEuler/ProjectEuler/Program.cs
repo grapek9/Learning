@@ -39,9 +39,11 @@ namespace ProjectEuler
             // Problem15 run_Problem15 = new Problem15();
             // run_Problem15.run();
             // Problem16 run_Problem16 = new Problem16();
-             Problem20 run_Problem20 = new Problem20();
-             run_Problem20.run();
             // run_Problem16.run();
+            // Problem20 run_Problem20 = new Problem20();
+            // run_Problem20.run();
+             Problem21 run_Problem21 = new Problem21();
+             run_Problem21.run();
             // Problem25 run_Problem25 = new Problem25();
             // run_Problem25.run();
             // Problem30 run_Problem30 = new Problem30();
