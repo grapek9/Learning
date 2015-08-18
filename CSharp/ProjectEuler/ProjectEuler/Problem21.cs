@@ -10,17 +10,35 @@ namespace ProjectEuler
     {
         public void run()
         {
-            IEnumerable<int> divisors = getDivisors();
-            Console.WriteLine(divisors.Sum());
-        }
-        public IEnumerable<int> getDivisors()
-        {
-            int number = 220;
-            for(int i = 1; i < number; i++)
+            IEnumerable<String> AmicablePairs = getAmicablePairs();
+            foreach(String element in AmicablePairs)
             {
-                if (number % i == 0) yield return i;
+                Console.WriteLine(element);
             }
         }
-            
+        public IEnumerable<String> getAmicablePairs()
+        {
+            int iteration = 2;
+            int sum1 = 0;
+            int sum2 = 0;
+            do {
+                sum1 = sumOfDivisors(iteration);
+                sum2 = sumOfDivisors(sum1);
+                if (sum2 == iteration && sum2!=sum1)
+                {
+                    yield return sum2.ToString() + " " + sum1.ToString();
+                }
+                iteration++;
+            } while (iteration!=10000);
+        }
+        public int sumOfDivisors(int number)
+        {
+            int sum = 0;
+            for(int i  = 1; i < number; i++)
+            {
+                if (number % i == 0) sum += i;
+            }
+            return sum;
+        }    
     }
 }
