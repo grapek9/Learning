@@ -7,6 +7,37 @@ import java.math.BigInteger;
  */
 public class Problem3 {
     public static void main(String[] Args){
+
+        long value = 600851475143L;
+        int prime_factor = 2;
+        do
+        {
+            if (value % prime_factor == 0)
+            {
+                value = value / prime_factor;
+                System.out.println(prime_factor);
+
+            }
+            else
+            {
+                do
+                {
+                    prime_factor++;
+                } while (isPrime(prime_factor)!=true);
+            }
+        } while (value > 1);
+        
+    }
+    public static boolean isPrime(long number){
+
+        for(long i = 2 ; i<(number/2)+1 ;i++){
+            if(number%i==0) return false;
+        }
+        return true;
+    }
+}
+/*
+* public static void main(String[] Args){
         long maxFactor = 0 ;
         long iterator = 1;
         long value = 600851475143L;
@@ -27,5 +58,4 @@ public class Problem3 {
             if(number%i==0) return false;
         }
         return true;
-    }
-}
+    }*/
