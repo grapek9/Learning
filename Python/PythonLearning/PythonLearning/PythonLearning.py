@@ -20,19 +20,33 @@
 #
 #print(sum)
 
-print("Project Euler Problem3")
-def isPrime(number:int):
-    for i in range(1,number):
-        if(number%i==0):
-            return False 
+#print("Project Euler Problem3")
+#def isPrime(number:int):
+#    for i in range(1,number):
+#        if(number%i==0):
+#            return True 
+#    return False
+#value = 600851475143;
+#max = 0
+#iteration  = 2
+#while(value > 1):
+#    if(isPrime(iteration)==True):
+#        if(value%iteration==0):           
+#            value /= iteration
+#            max = iteration
+#    iteration = iteration + 1
+#print(max)
+
+print("Project Euler Problem4")
+def isPalindrome(value):
+    for i in range(0,len(value)-1):
+        if(value[i]!=value[len(value)-1-i]):
+            return False
     return True
-value = 600851475143;
 max = 0
-iteration  = 2
-while(value > 1):
-    if(isPrime(iteration)!=True):
-        if(value%iteration==0):           
-            value /= iteration
-            max = iteration
-    iteration = iteration + 1
+for i in range(100,999):
+    for j in range(100,999):
+        if(isPalindrome(str((i*j)))==True):
+            if((i*j)>max):
+                max = i*j
 print(max)
