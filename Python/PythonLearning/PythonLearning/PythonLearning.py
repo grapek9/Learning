@@ -37,16 +37,32 @@
 #    iteration = iteration + 1
 #print(max)
 
-print("Project Euler Problem4")
-def isPalindrome(value):
-    for i in range(0,len(value)-1):
-        if(value[i]!=value[len(value)-1-i]):
-            return False
-    return True
-max = 0
-for i in range(100,999):
-    for j in range(100,999):
-        if(isPalindrome(str((i*j)))==True):
-            if((i*j)>max):
-                max = i*j
-print(max)
+#print("Project Euler Problem4")
+#def isPalindrome(value):
+#    for i in range(0,len(value)-1):
+#        if(value[i]!=value[len(value)-1-i]):
+#            return False
+#    return True
+#max = 0
+#for i in range(100,999):
+#    for j in range(100,999):
+#        if(isPalindrome(str((i*j)))==True):
+#            if((i*j)>max):
+#                max = i*j
+#print(max)
+
+print("Project Euler Problem 6")
+def sumOfSquares(number):
+    output = 0
+    for i in range(1,number+1):
+        output+=pow(i,2)
+    return output
+def squareOfSum(number):
+    output = 0
+    for i in range(1,number+1):
+        output+=i
+    return pow(output,2)
+value = 100
+print(sumOfSquares(value))
+print(squareOfSum(value))
+print(squareOfSum(value)-sumOfSquares(value))
