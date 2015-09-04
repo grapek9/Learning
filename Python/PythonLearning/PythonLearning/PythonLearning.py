@@ -1,4 +1,5 @@
-﻿#print("Project euler Problem1")
+﻿import math
+#print("Project euler Problem1")
 #list=list(range(1,1001))
 #sum = 0 ;
 #for i in range(len(list)):
@@ -22,7 +23,7 @@
 
 #print("Project Euler Problem3")
 #def isPrime(number:int):
-#    for i in range(1,number):
+#    for i in range(2,number):
 #        if(number%i==0):
 #            return True 
 #    return False
@@ -51,18 +52,33 @@
 #                max = i*j
 #print(max)
 
-print("Project Euler Problem 6")
-def sumOfSquares(number):
-    output = 0
-    for i in range(1,number+1):
-        output+=pow(i,2)
-    return output
-def squareOfSum(number):
-    output = 0
-    for i in range(1,number+1):
-        output+=i
-    return pow(output,2)
-value = 100
-print(sumOfSquares(value))
-print(squareOfSum(value))
-print(squareOfSum(value)-sumOfSquares(value))
+#print("Project Euler Problem 6")
+#def sumOfSquares(number):
+#    output = 0
+#    for i in range(1,number+1):
+#        output+=pow(i,2)
+#    return output
+#def squareOfSum(number):
+#    output = 0
+#    for i in range(1,number+1):
+#        output+=i
+#    return pow(output,2)
+#value = 100
+#print(sumOfSquares(value))
+#print(squareOfSum(value))
+#print(squareOfSum(value)-sumOfSquares(value))
+
+print("Project Euler Problem 7")
+def isPrime(number:int):
+    for i in range(2,math.floor(number/2)):
+        if(number%i==0):
+            return False
+    return True
+listOfElements=[]
+number =2
+while(len(listOfElements)!=10000):
+    if(isPrime(number)==True):
+        listOfElements.append(number)
+        print(len(listOfElements))
+    number+=1
+print(max(listOfElements))
