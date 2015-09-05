@@ -68,17 +68,31 @@
 #print(squareOfSum(value))
 #print(squareOfSum(value)-sumOfSquares(value))
 
-print("Project Euler Problem 7")
+#print("Project Euler Problem 7")
+#def isPrime(number:int):
+#    for i in range(2,math.floor(number/2)):
+#        if(number%i==0):
+#            return False
+#    return True
+#listOfElements=[]
+#number =2
+#while(len(listOfElements)!=10000):
+#    if(isPrime(number)==True):
+#        listOfElements.append(number)
+#        print(len(listOfElements))
+#    number+=1
+#print(max(listOfElements))
+
+print("Project Euler Problem 10")
+
 def isPrime(number:int):
     for i in range(2,math.floor(number/2)):
         if(number%i==0):
             return False
     return True
-listOfElements=[]
-number =2
-while(len(listOfElements)!=10000):
-    if(isPrime(number)==True):
-        listOfElements.append(number)
-        print(len(listOfElements))
-    number+=1
-print(max(listOfElements))
+sum = 0
+for i in range(2,2000000):
+    if(isPrime(i)==True):
+        sum+=i
+        print(i)
+print(sum)
