@@ -83,16 +83,26 @@
 #    number+=1
 #print(max(listOfElements))
 
-print("Project Euler Problem 10")
+#print("Project Euler Problem 10")
 
-def isPrime(number:int):
-    for i in range(2,math.floor(number/2)):
-        if(number%i==0):
-            return False
-    return True
-sum = 0
-for i in range(2,2000000):
-    if(isPrime(i)==True):
-        sum+=i
-        print(i)
+#def isPrime(number:int):
+#    for i in range(2,math.floor(number/2)):
+#        if(number%i==0):
+#            return False
+#    return True
+#sum = 0
+#for i in range(2,2000000):
+#    if(isPrime(i)==True):
+#        sum+=i
+        #print(i)
+#print(sum)
+
+print("Project Euler Problem 16")
+def sumator(number):
+    sum=0
+    for i in range(0,len(number)):
+        sum+=int(number[i])
+    return sum
+number = int(math.pow(2,1000))
+sum= sumator(str(number))
 print(sum)
