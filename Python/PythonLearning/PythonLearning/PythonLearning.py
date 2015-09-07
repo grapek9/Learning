@@ -97,12 +97,27 @@
         #print(i)
 #print(sum)
 
-print("Project Euler Problem 16")
-def sumator(number):
+#print("Project Euler Problem 16")
+#def sumator(number):
+#    sum=0
+#    for i in range(0,len(number)):
+#        sum+=int(number[i])
+#    return sum
+#number = int(math.pow(2,1000))
+#sum= sumator(str(number))
+#print(sum)
+
+print("Project Euler Problem 20")
+def factorial(number):
+    value = 1
+    for i in range(1,number):
+        value = value * i
+    return value
+def sumOfDigits(number):
     sum=0
     for i in range(0,len(number)):
         sum+=int(number[i])
     return sum
-number = int(math.pow(2,1000))
-sum= sumator(str(number))
+value = 100
+sum = sumOfDigits(str(factorial(value)))
 print(sum)
