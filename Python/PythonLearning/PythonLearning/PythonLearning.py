@@ -107,17 +107,34 @@
 #sum= sumator(str(number))
 #print(sum)
 
-print("Project Euler Problem 20")
-def factorial(number):
-    value = 1
-    for i in range(1,number):
-        value = value * i
-    return value
-def sumOfDigits(number):
-    sum=0
-    for i in range(0,len(number)):
-        sum+=int(number[i])
-    return sum
-value = 100
-sum = sumOfDigits(str(factorial(value)))
-print(sum)
+#print("Project Euler Problem 20")
+#def factorial(number):
+#    value = 1
+#    for i in range(1,number):
+#        value = value * i
+#    return value
+#def sumOfDigits(number):
+#    sum=0
+#    for i in range(0,len(number)):
+#        sum+=int(number[i])
+#    return sum
+#value = 100
+#sum = sumOfDigits(str(factorial(value)))
+#print(sum)
+
+print("Project Euler Problem 14")
+def collatzSequence(number):
+    length = 1
+    while(number > 1):
+        if(number%2==0):
+            number = number/2
+        else:
+            number = (3*number)+1
+        length += 1
+    return length
+length = 0
+number = 0
+for i in range(2,1000000):
+    if(length < collatzSequence(i)):
+        length = collatzSequence(i)
+        number = i
