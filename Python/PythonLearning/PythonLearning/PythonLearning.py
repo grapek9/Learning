@@ -162,5 +162,5 @@ while(digits(str(secondArg))<1000):
     secondArg = secondArg+firstArg
     firstArg = temp
     index +=1
-    print(secondArg)
+    #print(secondArg)
 print(index)
