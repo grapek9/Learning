@@ -97,6 +97,34 @@
         #print(i)
 #print(sum)
 
+#print("Project Euler Problem 14")
+#def collatzSequence(number):
+#    length = 1
+#    while(number > 1):
+#        if(number%2==0):
+#            number = number/2
+#        else:
+#            number = (3*number)+1
+#        length += 1
+#    return length
+#length = 0
+#number = 0
+#for i in range(2,1000000):
+#    if(length < collatzSequence(i)):
+#        length = collatzSequence(i)
+#        number = i
+
+#print("Project Euler Problem 15")
+#def factorial(number):
+#    if(number == 1):
+#        return 1
+#    return number*factorial(number-1)
+#def possibleWays(gridSize):
+#    moves = gridSize/2
+#    return factorial(gridSize)/(factorial(moves)*factorial(gridSize-moves))
+#gridSize = 40 #width*height
+#print(possibleWays(gridSize))
+
 #print("Project Euler Problem 16")
 #def sumator(number):
 #    sum=0
@@ -122,30 +150,17 @@
 #sum = sumOfDigits(str(factorial(value)))
 #print(sum)
 
-#print("Project Euler Problem 14")
-#def collatzSequence(number):
-#    length = 1
-#    while(number > 1):
-#        if(number%2==0):
-#            number = number/2
-#        else:
-#            number = (3*number)+1
-#        length += 1
-#    return length
-#length = 0
-#number = 0
-#for i in range(2,1000000):
-#    if(length < collatzSequence(i)):
-#        length = collatzSequence(i)
-#        number = i
-
-print("Project Euler Problem 15")
-def factorial(number):
-    if(number == 1):
-        return 1
-    return number*factorial(number-1)
-def possibleWays(gridSize):
-    moves = gridSize/2
-    return factorial(gridSize)/(factorial(moves)*factorial(gridSize-moves))
-gridSize = 40 #width*height
-print(possibleWays(gridSize))
+print("Project Euler Problem 25")
+def digits(number):
+    return len(number)
+firstArg = 1
+secondArg = 1
+index = 2
+temp = 0
+while(digits(str(secondArg))<1000):
+    temp = secondArg
+    secondArg = secondArg+firstArg
+    firstArg = temp
+    index +=1
+    print(secondArg)
+print(index)
