@@ -41,10 +41,10 @@ while (value != 1) {
         }
 }
 console.log('Result = '+max)*/
-console.log("Project Euler Problem 4");
+/*console.log("Project Euler Problem 4");
 function isPalindrome(value) {
     for (var i = 0; i < value.length; i++) {
-        if (value.charAt(i) != value.charAt(value.length - 1 - i)) {
+        if (value.charAt(i) != value.charAt(value.length-1-i)) {
             return false;
         }
     }
@@ -56,9 +56,29 @@ for (var i = 100; i < 1000; i++) {
         if (isPalindrome((i * j).toString()) === true) {
             if ((i * j) > value) {
                 value = i * j;
+                }
             }
         }
     }
+console.log('Result = '+value)*/
+console.log("Project Euler Problem 5");
+function sumOfSquares(number) {
+    var output = 0;
+    for (var i = 1; i <= number; i++) {
+        output += square(i);
+    }
+    return output;
 }
-console.log('Result = ' + value);
+function squareOfsum(number) {
+    var output = 0;
+    for (var i = 1; i <= number; i++) {
+        output += i;
+    }
+    return square(output);
+}
+function square(number) {
+    return number * number;
+}
+var value = 20;
+console.log(squareOfsum(value) - sumOfSquares(value));
 //# sourceMappingURL=app.js.map
