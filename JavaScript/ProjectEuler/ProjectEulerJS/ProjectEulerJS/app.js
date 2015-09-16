@@ -61,7 +61,7 @@ for (var i = 100; i < 1000; i++) {
         }
     }
 console.log('Result = '+value)*/
-console.log("Project Euler Problem 5");
+/*console.log("Project Euler Problem 6 "); // posted as problem nr5 (mistake)
 function sumOfSquares(number) {
     var output = 0;
     for (var i = 1; i <= number; i++) {
@@ -80,5 +80,23 @@ function square(number) {
     return number * number;
 }
 var value = 20;
-console.log(squareOfsum(value) - sumOfSquares(value));
+console.log(squareOfsum(value) - sumOfSquares(value));*/
+console.log("Project Euler Problem 7");
+function isPrime(number) {
+    for (var i = 2; i < Math.round(number / 2); i++) {
+        if (number % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+var listOfPrimes = [];
+var iterator = 1;
+while (listOfPrimes.length < 10002) {
+    iterator++;
+    if (isPrime(iterator) === true) {
+        listOfPrimes.push(iterator);
+    }
+}
+console.log(listOfPrimes[10001]);
 //# sourceMappingURL=app.js.map
