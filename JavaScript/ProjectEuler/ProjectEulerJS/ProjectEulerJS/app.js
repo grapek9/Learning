@@ -81,22 +81,38 @@ function square(number) {
 }
 var value = 20;
 console.log(squareOfsum(value) - sumOfSquares(value));*/
-console.log("Project Euler Problem 7");
+/*console.log("Project Euler Problem 7");
 function isPrime(number) {
-    for (var i = 2; i < Math.round(number / 2); i++) {
+    for (var i = 2; i < Math.round(number / 2)+1; i++) {
+        if (number % i === 0) {
+            return false;}
+    }
+    return true;
+}
+var listOfPrimes = []
+var iterator = 1;
+while (listOfPrimes.length < 10002) {
+    iterator++;
+    if (isPrime(iterator) === true) {
+        listOfPrimes.push(iterator);
+        }
+}
+console.log(listOfPrimes[10001]);*/
+console.log("Project Euler Problem 10");
+function isPrime(number) {
+    for (var i = 2; i < Math.round(number / 2) + 1; i++) {
         if (number % i === 0) {
             return false;
         }
     }
     return true;
 }
-var listOfPrimes = [];
-var iterator = 1;
-while (listOfPrimes.length < 10002) {
-    iterator++;
-    if (isPrime(iterator) === true) {
-        listOfPrimes.push(iterator);
+var sum = 0;
+for (var i = 2; i < 2000000; i++) {
+    if (isPrime(i) === true) {
+        sum += i;
+        console.log(i);
     }
 }
-console.log(listOfPrimes[10001]);
+console.log(sum);
 //# sourceMappingURL=app.js.map
