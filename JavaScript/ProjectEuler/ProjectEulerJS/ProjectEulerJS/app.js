@@ -98,21 +98,28 @@ while (listOfPrimes.length < 10002) {
         }
 }
 console.log(listOfPrimes[10001]);*/
-console.log("Project Euler Problem 10");
+/*console.log("Project Euler Problem 10");
 function isPrime(number) {
-    for (var i = 2; i < Math.round(number / 2) + 1; i++) {
+    for (var i = 2; i < Math.round(number / 2)+1; i++) {
         if (number % i === 0) {
             return false;
         }
     }
     return true;
 }
+
 var sum = 0;
 for (var i = 2; i < 2000000; i++) {
-    if (isPrime(i) === true) {
-        sum += i;
-        console.log(i);
-    }
+    if (isPrime(i) === true) { sum += i; console.log(i); }
 }
-console.log(sum);
+console.log(sum)*/
+console.log("Project Euler Problem 15");
+function factorial(number) {
+    if (number === 1)
+        return 1;
+    return number * factorial(number - 1);
+}
+var gridSize = 20;
+var moves = gridSize * 2;
+console.log(factorial(moves) / (factorial(gridSize) * factorial(moves - gridSize)));
 //# sourceMappingURL=app.js.map
