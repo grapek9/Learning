@@ -113,13 +113,24 @@ for (var i = 2; i < 2000000; i++) {
     if (isPrime(i) === true) { sum += i; console.log(i); }
 }
 console.log(sum)*/
-console.log("Project Euler Problem 15");
+/*console.log("Project Euler Problem 15");
 function factorial(number) {
-    if (number === 1)
-        return 1;
+    if (number === 1) return 1;
     return number * factorial(number - 1);
 }
 var gridSize = 20;
 var moves = gridSize * 2;
-console.log(factorial(moves) / (factorial(gridSize) * factorial(moves - gridSize)));
+console.log(factorial(moves) / (factorial(gridSize) * factorial(moves - gridSize)));*/
+console.log("Project Euler Problem 16");
+function sumator(value) {
+    var sum = 0;
+    for (var i = 0; i < value.length; i++) {
+        sum += parseInt(value.charAt(i));
+    }
+    return sum;
+}
+var value = Math.pow(2, 1000);
+console.log("Value " + value);
+var sum = sumator(String(value));
+console.log("Sum :" + sum);
 //# sourceMappingURL=app.js.map
