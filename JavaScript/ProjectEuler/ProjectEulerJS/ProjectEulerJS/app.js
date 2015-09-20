@@ -121,7 +121,7 @@ function factorial(number) {
 var gridSize = 20;
 var moves = gridSize * 2;
 console.log(factorial(moves) / (factorial(gridSize) * factorial(moves - gridSize)));*/
-console.log("Project Euler Problem 16");
+/*console.log("Project Euler Problem 16");
 function sumator(value) {
     var sum = 0;
     for (var i = 0; i < value.length; i++) {
@@ -130,7 +130,21 @@ function sumator(value) {
     return sum;
 }
 var value = Math.pow(2, 1000);
-console.log("Value " + value);
+console.log("Value "+value);
 var sum = sumator(String(value));
-console.log("Sum :" + sum);
+console.log("Sum :" + sum);*/
+console.log("Project Euler Problem 20");
+function factorial(value) {
+    if (value === 1)
+        return 1;
+    return value * factorial(value - 1);
+}
+function sumator(value) {
+    var sum = 0;
+    for (var i = 0; i < value.length; i++) {
+        sum += parseInt(value.charAt(i));
+    }
+    return sum;
+}
+console.log(sumator(String(factorial(10))));
 //# sourceMappingURL=app.js.map
