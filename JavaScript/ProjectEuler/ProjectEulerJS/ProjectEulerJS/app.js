@@ -133,10 +133,9 @@ var value = Math.pow(2, 1000);
 console.log("Value "+value);
 var sum = sumator(String(value));
 console.log("Sum :" + sum);*/
-console.log("Project Euler Problem 20");
+/*console.log("Project Euler Problem 20");
 function factorial(value) {
-    if (value === 1)
-        return 1;
+    if (value === 1) return 1;
     return value * factorial(value - 1);
 }
 function sumator(value) {
@@ -146,5 +145,32 @@ function sumator(value) {
     }
     return sum;
 }
-console.log(sumator(String(factorial(10))));
+console.log(sumator(String(factorial(10))));*/
+console.log("Project Euler Problem 30 ");
+function isSumOfFifthEqualToValue(value) {
+    var sum = 0;
+    var numberAsString = String(value);
+    for (var i = 0; i < numberAsString.length; i++) {
+        sum += power(parseInt(numberAsString.charAt(i)));
+    }
+    if (sum === value) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+function power(value) {
+    return Math.pow(value, 5);
+}
+var sum = 0;
+for (var i = 1; i <= 1000000; i++) {
+    if (i % 10000 === 0) {
+        console.log(i / 10000 + "%");
+    }
+    if (isSumOfFifthEqualToValue(i) === true) {
+        sum += i;
+    }
+}
+console.log(sum);
 //# sourceMappingURL=app.js.map
