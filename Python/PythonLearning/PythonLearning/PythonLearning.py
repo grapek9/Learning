@@ -150,17 +150,38 @@
 #sum = sumOfDigits(str(factorial(value)))
 #print(sum)
 
-print("Project Euler Problem 25")
-def digits(number):
-    return len(number)
-firstArg = 1
-secondArg = 1
-index = 2
-temp = 0
-while(digits(str(secondArg))<1000):
-    temp = secondArg
-    secondArg = secondArg+firstArg
-    firstArg = temp
-    index +=1
-    #print(secondArg)
-print(index)
+#print("Project Euler Problem 25")
+#def digits(number):
+#    return len(number)
+#firstArg = 1
+#secondArg = 1
+#index = 2
+#temp = 0
+#while(digits(str(secondArg))<1000):
+#    temp = secondArg
+#    secondArg = secondArg+firstArg
+#    firstArg = temp
+#    index +=1
+#    #print(secondArg)
+#print(index)
+
+print("Project Euler Problem 30")
+def isEqual(value:int):
+    sum = 0
+    text = str(value)
+    for i in range(0,len(text)-1):
+        sum+=math.pow(int(text[i]),5)
+    if(value == sum):
+        return True
+    else:
+        return False
+iterator = 0;
+sum = 0;
+while(iterator<=1000000):
+    iterator+=1
+    if(iterator%10000==0):
+        print(iterator/10000,"%")
+    if(isEqual(iterator)==True):
+        sum+=iterator
+
+print(sum)
