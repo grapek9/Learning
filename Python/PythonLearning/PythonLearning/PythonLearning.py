@@ -169,7 +169,7 @@ print("Project Euler Problem 30")
 def isEqual(value:int):
     sum = 0
     text = str(value)
-    for i in range(0,len(text)-1):
+    for i in range(0,len(text)):
         sum+=math.pow(int(text[i]),5)
     if(value == sum):
         return True
