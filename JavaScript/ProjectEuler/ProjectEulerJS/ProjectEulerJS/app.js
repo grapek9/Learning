@@ -146,7 +146,7 @@ function sumator(value) {
     return sum;
 }
 console.log(sumator(String(factorial(10))));*/
-console.log("Project Euler Problem 30 ");
+/*console.log("Project Euler Problem 30 ");
 function isSumOfFifthEqualToValue(value) {
     var sum = 0;
     var numberAsString = String(value);
@@ -155,8 +155,7 @@ function isSumOfFifthEqualToValue(value) {
     }
     if (sum === value) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -165,11 +164,48 @@ function power(value) {
 }
 var sum = 0;
 for (var i = 1; i <= 1000000; i++) {
-    if (i % 10000 === 0) {
-        console.log(i / 10000 + "%");
-    }
+    if (i % 10000 === 0) { console.log(i/10000+"%");}
     if (isSumOfFifthEqualToValue(i) === true) {
         sum += i;
+    }
+}
+console.log(sum);*/
+console.log("Project Euler Problem 36");
+function isPalindrome(value) {
+    for (var i = 0; i < value.length; i++) {
+        if (value.charAt(i) != value.charAt(value.length - 1 - i)) {
+            return false;
+        }
+    }
+    return true;
+}
+function toBin(value) {
+    var binValue = "";
+    while (value != 0) {
+        if (value % 2 === 0) {
+            binValue += "0";
+        }
+        else {
+            binValue += "1";
+        }
+        value = Math.floor(value / 2);
+    }
+    return reverse(binValue);
+}
+function reverse(value) {
+    var reversedString = "";
+    for (var i = 0; i <= value.length; i++) {
+        reversedString += value.charAt(value.length - i);
+    }
+    return reversedString;
+}
+var sum = 0;
+for (var i = 1; i < 1000001; i++) {
+    if (isPalindrome(i.toString()) === true && isPalindrome(toBin(i)) === true) {
+        sum += i;
+    }
+    if (i % 10000 === 0) {
+        console.log(i / 10000 + "%");
     }
 }
 console.log(sum);
