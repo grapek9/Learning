@@ -26,7 +26,7 @@ public class Problem3 {
                 } while (isPrime(prime_factor)!=true);
             }
         } while (value > 1);
-        
+
     }
     public static boolean isPrime(long number){
 

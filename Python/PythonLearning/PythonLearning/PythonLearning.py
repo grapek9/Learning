@@ -186,25 +186,26 @@
 #
 #print(sum)
 
-print("Project Euler Problem 36")
-def isPalindrome(value):
-    for i in range(0,len(value)-1):
-        if(value[i]!=value[len(value)-1-i]):
-            return False
-    return True
-def toBin(value):
-    binValue=""
-    while(value!=0):
-        if(value%2==0):
-            binValue+="0"
-        else:
-            binValue+="1"
-        value = int(value/2)                 
-    return binValue[::-1];
-sum = 0
-for i in range(1,1000000):
-    if(isPalindrome(str(i))==True & isPalindrome(toBin(i))==True):
-        sum+=i
-    if(i%10000==0):
-        print(i/10000,"%")
-print(sum)
+#print("Project Euler Problem 36")
+#def isPalindrome(value):
+#    for i in range(0,len(value)-1):
+#        if(value[i]!=value[len(value)-1-i]):
+#            return False
+#    return True
+#def toBin(value):
+#    binValue=""
+#    while(value!=0):
+#        if(value%2==0):
+#            binValue+="0"
+#        else:
+#            binValue+="1"
+#        value = int(value/2)                 
+#    return binValue[::-1];
+#sum = 0
+#for i in range(1,1000000):
+#    if(isPalindrome(str(i))==True & isPalindrome(toBin(i))==True):
+#        sum+=i
+#    if(i%10000==0):
+#        print(i/10000,"%")
+#print(sum)
+

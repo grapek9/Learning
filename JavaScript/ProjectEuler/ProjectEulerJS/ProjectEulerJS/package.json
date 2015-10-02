@@ -1,7 +1,7 @@
 {
-  "name": "JavaScriptLearning",
+  "name": "ProjectEulerJS",
   "version": "0.0.0",
-  "description": "JavaScriptLearning",
+  "description": "ProjectEulerJS",
   "main": "app.js",
   "author": {
     "name": "Daniel",
