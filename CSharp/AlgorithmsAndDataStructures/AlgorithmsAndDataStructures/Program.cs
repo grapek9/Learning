@@ -10,6 +10,17 @@ namespace AlgorithmsAndDataStructures
     {
         static void Main(string[] args)
         {
+            int[] intArray = new int[5] {5,2,1,6,0};
+            foreach(int i in intArray) {
+                Console.Write(i+",");
+            }
+            intArray = BubbleSort.runBubbleSort(intArray);
+            foreach (int i in intArray)
+            {
+                Console.Write(i + ",");
+            }
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
