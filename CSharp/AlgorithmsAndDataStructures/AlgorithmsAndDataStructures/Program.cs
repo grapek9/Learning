@@ -15,6 +15,7 @@ namespace AlgorithmsAndDataStructures
                 Console.Write(i+",");
             }
             intArray = BubbleSort.runBubbleSort(intArray);
+            Console.WriteLine();
             foreach (int i in intArray)
             {
                 Console.Write(i + ",");

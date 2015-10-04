@@ -24,6 +24,7 @@ namespace AlgorithmsAndDataStructures
                             temp = values[j + 1];
                             values[j + 1] = values[j];
                             values[j] = temp;
+                            
                         }
                     }
                     else if (typeOfValues == typeof(float)) {
@@ -55,7 +56,7 @@ namespace AlgorithmsAndDataStructures
         }
         public static bool compareValues(String firstArg, String secondArg)
         {
-           // if (firstArg > secondArg) return true;
+            if (float.Parse(firstArg) > float.Parse(secondArg)) return true;
             return false;
         }
         public static bool compareValues(double firstArg, double secondArg)
