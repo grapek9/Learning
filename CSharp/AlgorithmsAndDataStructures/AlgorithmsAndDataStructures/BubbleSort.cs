@@ -28,7 +28,25 @@ namespace AlgorithmsAndDataStructures
                         }
                     }
                     else if (typeOfValues == typeof(float)) {
-                        if (compareValues(Convert.ToString(values[j]), Convert.ToString(values[j + 1])))
+                        if (compareValues(float.Parse(Convert.ToString(values[j])), float.Parse(Convert.ToString(values[j + 1]))))
+                        {
+                            temp = values[j + 1];
+                            values[j + 1] = values[j];
+                            values[j] = temp;
+                        }
+                    }
+                    else if(typeOfValues == typeof(int))
+                    {
+                        if (compareValues(Convert.ToInt32(values[j]), Convert.ToInt32(values[j + 1])))
+                        {
+                            temp = values[j + 1];
+                            values[j + 1] = values[j];
+                            values[j] = temp;
+                        }
+                    }
+                    else if (typeOfValues == typeof(char))
+                    {
+                        if (compareValues(char.Parse(values[j].ToString()), char.Parse(values[j + 1].ToString())))
                         {
                             temp = values[j + 1];
                             values[j + 1] = values[j];
@@ -37,12 +55,7 @@ namespace AlgorithmsAndDataStructures
                     }
                     else
                     {
-                        if (compareValues(Convert.ToInt32(values[j]), Convert.ToInt32(values[j + 1])))
-                        {
-                            temp = values[j + 1];
-                            values[j + 1] = values[j];
-                            values[j] = temp;
-                        }
+                        Console.WriteLine("yo dawng these are strings");
                     }
 
                 }
@@ -54,12 +67,17 @@ namespace AlgorithmsAndDataStructures
             if (firstArg > secondArg) return true;
             return false;
         }
-        public static bool compareValues(String firstArg, String secondArg)
+        public static bool compareValues(float firstArg, float secondArg)
         {
-            if (float.Parse(firstArg) > float.Parse(secondArg)) return true;
+            if (firstArg > secondArg) return true;
             return false;
         }
         public static bool compareValues(double firstArg, double secondArg)
+        {
+            if (firstArg > secondArg) return true;
+            return false;
+        }
+        public static bool compareValues(char firstArg, char secondArg)
         {
             if (firstArg > secondArg) return true;
             return false;

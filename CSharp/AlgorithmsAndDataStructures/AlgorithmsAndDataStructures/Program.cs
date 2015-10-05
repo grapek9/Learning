@@ -10,13 +10,13 @@ namespace AlgorithmsAndDataStructures
     {
         static void Main(string[] args)
         {
-            int[] intArray = new int[5] {5,2,1,6,0};
-            foreach(int i in intArray) {
+            char[] charArray = new char[5] {'b','x','z','o','a'};
+            foreach(char i in charArray) {
                 Console.Write(i+",");
             }
-            intArray = BubbleSort.runBubbleSort(intArray);
+            charArray = BubbleSort.runBubbleSort(charArray);
             Console.WriteLine();
-            foreach (int i in intArray)
+            foreach (char i in charArray)
             {
                 Console.Write(i + ",");
             }
