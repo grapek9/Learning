@@ -55,7 +55,12 @@ namespace AlgorithmsAndDataStructures
                     }
                     else
                     {
-                        Console.WriteLine("yo dawng these are strings");
+                        if (compareValues(values[j].ToString(), values[j + 1].ToString()))
+                        {
+                            temp = values[j + 1];
+                            values[j + 1] = values[j];
+                            values[j] = temp;
+                        }
                     }
 
                 }
@@ -80,6 +85,11 @@ namespace AlgorithmsAndDataStructures
         public static bool compareValues(char firstArg, char secondArg)
         {
             if (firstArg > secondArg) return true;
+            return false;
+        }
+        public static bool compareValues(String firstArg, String secondArg)
+        {
+            if (firstArg.CompareTo(secondArg) > 0) {  return true; }
             return false;
         }
     }
