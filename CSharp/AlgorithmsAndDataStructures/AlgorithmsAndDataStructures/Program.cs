@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlgorithmsAndDataStructures;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +11,13 @@ namespace AlgorithmsAndDataStructures
     {
         static void Main(string[] args)
         {
-            String[] charArray = new String[5] {"ax","az","aa","ad","ac"};
-            foreach(String i in charArray) {
+            int[] intArray = new int[5] {2,8,5,1,0};
+            foreach(int i in intArray) {
                 Console.Write(i+",");
             }
-            charArray = BubbleSort.runBubbleSort(charArray);
+            intArray = BubbleSort<int>.runBubbleSort(intArray);
             Console.WriteLine();
-            foreach (String i in charArray)
+            foreach (int i in intArray)
             {
                 Console.Write(i + ",");
             }
