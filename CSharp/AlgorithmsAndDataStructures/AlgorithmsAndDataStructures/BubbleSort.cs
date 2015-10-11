@@ -7,9 +7,9 @@ using System.Numerics;
 
 namespace AlgorithmsAndDataStructures
 {
-    class BubbleSort<T> where T:IComparable
+    class BubbleSort
     {
-        public static T[] runBubbleSort(T[] values)
+        public static T[] runBubbleSort<T>(T[] values) where T:IComparable
         {
             T temp;
             for(int i = 0; i < values.Length; i ++)

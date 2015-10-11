@@ -15,7 +15,7 @@ namespace AlgorithmsAndDataStructures
             foreach(int i in intArray) {
                 Console.Write(i+",");
             }
-            intArray = BubbleSort<int>.runBubbleSort(intArray);
+            intArray = BubbleSort.runBubbleSort(intArray);
             Console.WriteLine();
             foreach (int i in intArray)
             {
