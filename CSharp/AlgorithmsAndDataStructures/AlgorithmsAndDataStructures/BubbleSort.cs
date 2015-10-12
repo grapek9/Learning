@@ -12,7 +12,7 @@ namespace AlgorithmsAndDataStructures
         public static T[] runBubbleSort<T>(T[] values) where T:IComparable
         {
             T temp;
-            for(int i = 0; i < values.Length; i ++)
+             for(int i = 0; i < values.Length; i ++)
             {
                 for (int j = 0; j < values.Length-1; j++) {
                     if (values[j].CompareTo(values[j + 1]) == 1)
