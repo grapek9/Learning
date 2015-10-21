@@ -1,7 +1,12 @@
-main = do
-    putStrLn "hello"
-    putStrLn "world"
+x :: Int
+x = 10
 
-     
-      
-    let x :: Int = 5
+f :: Int -> Int
+f x = let y = 3
+          z = 2
+          in x*y + x*z 
+
+
+main = do
+    print (f x)
+
