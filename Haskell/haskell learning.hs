@@ -1,6 +1,7 @@
  
 
 rec 1 = 1
+
 rec x = x * rec (x-1)
 
 
