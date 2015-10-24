@@ -1,12 +1,9 @@
-x :: Int
-x = 10
+ 
 
-f :: Int -> Int
-f x = let y = 3
-          z = 2
-          in x*y + x*z 
+rec 1 = 1
+rec x = x * rec (x-1)
 
 
 main = do
-    print (f x)
+    print (rec 1000)
 
